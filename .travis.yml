@@ -4,6 +4,6 @@ python:
 cache: pip
 install: 
   - pip install selenium
-  - pip installrand-string
+  - pip install rand-string
 script: 
   - python -m unittest -v ejercicio3-1
