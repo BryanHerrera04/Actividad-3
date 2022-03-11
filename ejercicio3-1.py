@@ -20,10 +20,12 @@ class TestSe(unittest.TestCase):
 		ButtonLogin.send_keys(Keys.ENTER)
 		success = self.browser.find_element_by_css_selector('body > div:nth-child(14) > div')
 		print(success)
+		sleep(5)
 		self.assertEqual(success.text, "Successfully Logged in...")
 
 	def tearDown(self):
 		self.browser.quit()
+		
 
 if __name__ == '__main__':
     main()
