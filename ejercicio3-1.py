@@ -8,7 +8,7 @@ filterwarnings("ignore")
 
 class TestSe(unittest.TestCase):
 	def setUp(self):
-		self.browser = webdriver.Chrome(executable_path="../drivers/chromedriver.exe")
+		self.browser = webdriver.Chrome(executable_path="./drivers/chromedriver.exe")
 
 	def test_load(self):
 		self.browser.get("https://demo.guru99.com/test/login.html")
