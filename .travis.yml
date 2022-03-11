@@ -4,8 +4,8 @@ python:
 cache: pip
 install: 
   - pip install -r requirements.txt
+addons:
+  chrome: stable
 script: 
   - python -m unittest -v ejercicio3-1
 
-addons:
-  chrome: stable
