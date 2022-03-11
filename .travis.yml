@@ -8,5 +8,5 @@ install:
   - pip install -r requirements.txt
 
 script: 
-  - python -m unittest -v ejercicio3-1
+  - python -m unittest discover -v
 
